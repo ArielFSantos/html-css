@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Yellowtail&display=swap');
+
+
+main{
+    width: 700px;
+    height: 434px;
+     
+}
+
+h1{
+    font-family: yellowtail;
+    text-align: center;
+    text-shadow: 2px 2px 2px blue;
+   
+}
+div{
+padding: auto
+;
+display: inline-block;
+border: 1px solid black;
+height: 200px;
+width: 200px;
+}
+div:hover{
+    background-color: rgba(128, 128, 128, 0.521);
+     
+}

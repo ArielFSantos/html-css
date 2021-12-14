@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias HTML5</title>
+</head>
+<body>
+    
+    <h1>Imagem Dinamica</h1>
+    <p>Abaixo Teste de Imagem Dinamica</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem Grande">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Primeira Tentativa</p>
+    <audio src="media/Early Avril - Unicorn Heads.mp3" controls ></audio>
+    <hr>
+
+    <video  controls loop width="560" poster="Imagens/foto-p.png" src="media/video/teste-tamanho2.m4v"></video>
+    <hr>
+    <h1>Video do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Video do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/647452678?h=ea926caeb7&badge=0" width="560" height="272" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+    <audio preload="metadata"  loop  >
+        <source src="media/Early Avril - Unicorn Heads.mp3" type="audio/mpeg">
+        <source src="media/Early Avril - Unicorn Heads.ogg" type="audio/ogg">
+        <source src="media/Early Avril - Unicorn Heads.wav" type="audio/wav">
+        <p>Seu navegador não é compativel com o audio <a href="media/Early Avril - Unicorn Heads.mp3" type="audio/mp3">Clique Aqui</a> para Baixa-lo</p>
+    </audio>
+    <h1><a href="index2.html">Clique Aqui</a> Para Proxima Pagina</h1>
+</body>
+</html>
