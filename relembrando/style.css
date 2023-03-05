@@ -1,0 +1,88 @@
+@charset "utf-08";
+
+header{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: grey;
+    box-shadow: 3px 3px 4px white;
+    width: 100vw;
+}
+header h1{
+text-align: center;
+color: black;
+text-shadow: 1px 1px 3px white;
+
+}
+body{
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+    background-attachment: fixed ;
+}
+h1{
+    color: black;
+}
+
+article{
+   
+    padding-left: 200px;
+    text-align: center;
+    font-size: larger;
+    margin-left: 20px;
+    width: 40vw;
+}
+article h1{
+
+     
+background:
+linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+background-size: 100px 100px;
+background-color: #EC173A;
+background-attachment: fixed;
+font-size: 100px;
+border: 3px solid black;
+background-clip: text;
+-webkit-background-clip: text;
+color: rgba(0,0,0,.2)
+
+
+
+}
+main{
+    
+    margin: auto;
+    width: 70vw;
+    display: flex;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.603) , rgba(128, 128, 128, 0.616));
+    flex-wrap: wrap;
+}
+nav{
+    margin-top: 100px;
+    position: fixed;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.096);
+    width: 15vw;   
+}
+nav h1{
+    padding: 10px;
+    text-align: center;
+}
+nav h1:hover{
+    background-color: rgba(0, 0, 0, 0.39);
+}
+footer{
+    width: 100vw;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+}
+footer h1{
+    color: white;
+}
